@@ -2,12 +2,108 @@
     width: 375px;
     height: auto;
     margin: auto;
-    }   
+    
+}   
 .container {
-    width: 375px;
-    height: auto;
-    margin: auto;
-    background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
+    background-image: url(bg-pattern-top-mobile.svg),url(bg-pattern-bottom-mobile.svg);
     background-color: hsl(0, 0%, 100%);
+}
+.header {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    padding: 50px 50px 0 50px;
+}
+.para {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+.element1 {
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.element2 {
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.element3 {
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-left: 110px;
+    justify-content: space-between;
+}
+.head {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.col1 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 250px;
+    margin: 0 0 20px 14px;
+    position: relative;
+}
+.col2 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 250px;
+    margin: 0 0 20px 14px;
+    position: relative;
+}
+.col3 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 250px;
+    margin: 0 0 20px 14px;
+    position: relative;
+}
+.image {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.name {
+    position: absolute;
+    top: 30px;
+    left: 130px;
+}
+.paragraph {
+   padding-top: 130px;
+   padding-left: 30px;
+   padding-right: 30px;
+   line-height: 20px;
 
 }
