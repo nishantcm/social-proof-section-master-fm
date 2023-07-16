@@ -1,0 +1,13 @@
+.page-wraper {
+    width: 375px;
+    height: auto;
+    margin: auto;
+    }   
+.container {
+    width: 375px;
+    height: auto;
+    margin: auto;
+    background-image: url(bg-pattern-top-mobile.svg), url(bg-pattern-bottom-mobile.svg);
+    background-color: hsl(0, 0%, 100%);
+
+}
