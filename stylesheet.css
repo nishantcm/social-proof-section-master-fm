@@ -4,6 +4,7 @@
     margin: auto;
 }   
 .container {
+    width: 375px;
     position: relative;
     background-color: hsl(0, 0%, 100%);
 }
@@ -11,9 +12,12 @@
     position: relative;
 
 } 
+.bg-desktop-t{
+    display: none;
+}
 .header {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 30px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 36px;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
     text-align: center;
@@ -21,33 +25,28 @@
     position: absolute;
     top: 80px;
 }
-.header span{
-    position: relative;
-    bottom: 4px;
-    right: 5px;
-    left: 0px;
-}
 .para {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: hsl(303, 10%, 53%);
     text-align: center;
-    padding: 0px 30px 50px 30px;
+    line-height: 20px;
+    padding: 0px 50px 0 50px;
     position: absolute;
-    top: 200px;
+    top: 210px;
 }
 .element1 {
     background-color: hsl(300, 24%, 96%);
-    width: 345px;
+    width: 325px;
     padding: 10px 0 10px 0;
     border-radius: 5px;
-    margin: 60px auto;
+    margin: 80px auto;
     margin-bottom: 20px;
 }
 .element2 {
     background-color: hsl(300, 24%, 96%);
-    width: 345px;
+    width: 325px;
     padding: 10px 0 10px 0;
     border-radius: 5px;
     margin: auto;
@@ -55,7 +54,7 @@
 }
 .element3 {
     background-color: hsl(300, 24%, 96%);
-    width: 345px;
+    width: 325px;
     padding: 10px 0 10px 0;
     border-radius: 5px;
     margin: auto;
@@ -72,23 +71,18 @@ img {
 .head {
     color: hsl(300, 43%, 22%);
     font-weight: 700;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     text-align: center;
     padding-top: 10px;
     font-size: 15px;
-}
-.content {
-    width: 375px;
-    height: auto;
-
 }
 .col1 {
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
-    width: 350px;
+    width: 325px;
     height: 250px;
-    margin: 0 0 20px 12px;
+    margin: 0 25px 20px 25px;
     padding: 0px 0px 0px 0px;
     position: relative;
 }
@@ -96,18 +90,18 @@ img {
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
-    width: 350px;
+    width: 325px;
     height: 250px;
-    margin: 0 0 20px 12px;
+    margin: 0 25px 20px 25px;
     position: relative;
 }
 .col3 {
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
-    width: 350px;
+    width: 325px;
     height: 250px;
-    margin: 0 0 80px 12px;
+    margin: 0 25px 80px 25px;
     position: relative;
 }
 .image {
@@ -116,13 +110,13 @@ img {
     height: 45px;
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 35px;
 }
 .name {
     position: absolute;
     top: 35px;
-    left: 110px;
-    font-family: 'Kumbh Sans', sans-serif;
+    left: 100px;
+    font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     font-size: 15px;
 
@@ -134,10 +128,10 @@ img {
 }
 .paragraph {
    padding-top: 110px;
-   padding-left: 30px;
+   padding-left: 35px;
    padding-right: 50px;
    line-height: 20px;
-   font-family: 'Kumbh Sans', sans-serif;
+   font-family: 'League Spartan', sans-serif;
    font-weight: 500;
    font-size: 15px;
 }
@@ -145,3 +139,109 @@ img {
     position: absolute;
     top: 930px;
 }
+.bg-desktop-b{
+    display: none;
+}
+@media (min-width: 1440px){
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .page-wraper{
+        width: 1440px;
+        height: 800px;
+        display: flex;
+        position: relative;
+    }
+    .container {
+        display: flex;
+        width: 1440px;
+        height: 400px;
+    }
+    .content {
+        height: 260px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 45px;
+        margin-left: 350px;
+    }
+    .bg-top{
+        display: none;
+    
+    } 
+    .bg-desktop-t{
+        display: block;
+    }
+
+    .bg-bottom {
+        display: none;
+    }
+    .bg-desktop-b{
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 5px;
+    }
+    .header {
+        text-align: left;
+        font-size: 42px;
+        padding: 0 1000px 0 140px;
+        position: absolute;
+        top: 100px;
+    }
+    .para {
+        text-align: left;
+        line-height: 20px;
+        padding: 0px 920px 0 140px;
+        position: absolute;
+        top: 240px;
+    }
+    .element1 {
+        width: 400px;
+        display: flex;
+        position: relative;
+        left: 160px;
+    }
+    .element2 {
+        width: 400px;
+        display: flex;
+        position: relative;
+        left: 210px;
+    }
+    .element3 {
+        width: 400px;
+        display: flex;
+        position: relative;
+        left: 260px;
+    }
+    img {
+        margin-right: 15px;
+    }
+    .icon{
+        margin: 0 25px 0 25px;
+        padding: 10px;
+        display: block;
+        justify-content: space-around;
+    }
+    .col1 {
+        width: 347px;
+        position: relative;
+        top: 360px;
+        right: 235px;
+    }
+    .col2 {
+        width: 347px;
+        position: relative;
+        top: 380px;
+        right: 250px;
+    }
+    .col3 {
+        width: 347px;
+        position: relative;
+        top: 400px;
+        right: 270px;
+    }
+ }
